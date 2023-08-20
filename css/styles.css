@@ -1,0 +1,42 @@
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+    background-color: #ffffff;
+}
+
+.logoword {
+    color: #4D5AE5;
+}
+
+.logotype {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.headline {
+    color: #2E2F42;
+}
+
+.info {
+    color: #434455;
+}
+
+headmain {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+headmain:hover {
+    list-style-type: none;
+    color: #404BBF;
+}
