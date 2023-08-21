@@ -1,16 +1,8 @@
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style-type: none;
-}
-
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
     background-color: #ffffff;
 }
+
+/* HEADER */
 
 .logoword {
     color: #4D5AE5;
@@ -21,22 +13,130 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: #2E2F42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
-.headline {
+
+.headmain a {
+    text-decoration: none;
     color: #2E2F42;
 }
 
-.info {
-    color: #434455;
-}
-
-headmain {
-    text-decoration: none;
-    list-style-type: none;
-}
-
-headmain:hover {
-    list-style-type: none;
+.headmain a:active {
     color: #404BBF;
+}
+
+.headmain {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+address .info {
+    color: #434455;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/* SECTION HERO */
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    /* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+.hero {
+    background-color: #2E2F42;
+        width: 1440px;
+        height: 600px;
+}
+
+button {
+    background-color: #4D5AE5;
+    color: #FFF;
+}
+
+button:hover {
+    background-color: #404BBF;
+}
+
+/* MAIN PAGE */
+
+.list {
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ghost {
+    color: #FFF;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+    color: #2E2F42;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    color: #434455
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+/* FOOTER */
+
+.ending {
+    background-color: #2E2F42;
+}
+
+.quote {
+    color: #F4F4FD;
+}
+
+.logoline {
+    font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #F4F4FD;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
 }
