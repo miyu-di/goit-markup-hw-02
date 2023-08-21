@@ -1,5 +1,6 @@
 body {
     background-color: #ffffff;
+    color: #434455;
 }
 
 /* HEADER */
@@ -23,7 +24,16 @@ body {
 
 .headmain a {
     text-decoration: none;
+}
+
+.headline {
     color: #2E2F42;
+}
+
+.info {
+    font-style: normal;
+    font-weight: 400;
+    color: #434455;
 }
 
 .headmain a:active {
@@ -39,11 +49,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-address .info {
-    color: #434455;
-    font-style: normal;
-    font-weight: 400;
-}
+
 
 
 /* SECTION HERO */
@@ -100,7 +106,6 @@ p {
     font-weight: 400;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
-    color: #434455
 }
 
 h2 {
