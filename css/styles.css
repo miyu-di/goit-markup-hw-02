@@ -136,6 +136,13 @@ body {
     background-color: #ffffff;
 }
 
+.desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
 /* FOOTER */
 
 .ending {
@@ -144,6 +151,8 @@ body {
 
 .quote {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .logoline {
